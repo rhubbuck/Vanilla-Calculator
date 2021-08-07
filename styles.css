@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    color:blueviolet;
+}
+h1, p {
+    font-size: 4em;
+}
+.wrapper {
+    text-align: center;
+}
+h1 {
+    padding-top: 180px;
+}
+button {
+    width: 100px;
+    height: 80px;
+    margin: 25px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    font-size: 1.2em;
+    background-color: aqua;
+    color: blueviolet;
+    transition: all .3s ease;
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
